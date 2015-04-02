@@ -15,7 +15,7 @@ $host = 'localhost';
 $username = 'root';
 $password = '*****'; //Change this accordingly
 $database = 'sampletask';
-$mysqli = new mysqli('localhost', 'root', 'Lihnida', 'sampletask');
+$mysqli = new mysqli('localhost', 'root', '******', 'sampletask');
 
 if ($mysqli->connect_errno){
     throw new Exception("Failed database connection. " . $mysqli->connect_error);
